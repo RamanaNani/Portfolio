@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is your name?",
+    "answer": "Venkata Ramana Reddy Duggempudi."
+  },
+  {
+    "question": "What is your background?",
+    "answer": "I am an AI graduate with expertise in Data Preprocessing, LLMs, CNNs, Conversational AI, and Vision Transformers."
+  },
+  {
+    "question": "What are your main skills?",
+    "answer": "Python, JavaScript, Java, MATLAB, SQL, TensorFlow, PyTorch, Keras, NLTK, Scikit-learn, Pandas, Matplotlib, LangChain, Huggingface, and more."
+  },
+  {
+    "question": "What projects have you worked on?",
+    "answer": "I have worked on LLMs in Health Science, Bone Fracture Detection, Obesity Prediction, and Improving Chess Strategies with Deep RL."
+  },
+  {
+    "question": "How can I contact you?",
+    "answer": "You can email me at ramanareddy1098@outlook.com or connect on LinkedIn: https://www.linkedin.com/in/ramanareddy1098"
+  }
+] 
