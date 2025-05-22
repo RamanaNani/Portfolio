@@ -1,10 +1,16 @@
-import React, { useState } from "react";
-import qaData from "./chatbot_qa.json";
+import React, { useState, useEffect } from "react";
 import "./Chatbot.css";
 
 export default function Chatbot() {
   const [input, setInput] = useState("");
   const [chat, setChat] = useState([]);
+  const [qaData, setQaData] = useState([]);
+
+  useEffect(() => {
+    fetch("/chatbot_qa.json")
+      .then(res => res.json())
+      .then(setQaData);
+  }, []);
 
   const handleSend = () => {
     const question = input.trim().toLowerCase();
